@@ -30,6 +30,7 @@ fn main() {
              .required(true));
 
     let matches = App::new("datadog-cli")
+        .setting(AppSettings::SubcommandRequiredElseHelp)
         .version("0.1")
         .author("Vincent Ambo")
         .about("Simple dogstatsd CLI client")
