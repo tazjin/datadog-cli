@@ -1,0 +1,8 @@
+[package]
+name = "datadog-cli"
+version = "0.1.0"
+authors = ["Vincent Ambo <mail@tazj.in>"]
+
+[dependencies]
+dogstatsd = "0.5"
+clap = "2.31"
